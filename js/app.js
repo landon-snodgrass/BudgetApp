@@ -115,6 +115,7 @@ class UI {
          </div>
         </div>
 		`;
+        this.expenseAmount.innerHTML = expense.amount;
         this.expenseList.append(div);
     }
 
